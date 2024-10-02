@@ -1,0 +1,7 @@
+<h3>AÑADIR TAREAS</h3>
+<input #listadoName placeholder="¿Que tienes que hacer?"/>
+<input type="time" #listadoType placeholder="Hora inicio"/>
+<input type="time" #listadoType2 placeholder="Hora final"/>
+<textarea type="text" #listadoDescription placeholder="Descripción breve de la tarea..."></textarea>
+<button (click)="addListados(listadoName.value, listadoType.value, listadoType2.value)">Añadir</button>
+

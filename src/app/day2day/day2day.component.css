@@ -1,0 +1,23 @@
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, sans-serif;
+}
+
+.title {
+    font-size: 2.5rem; 
+    color: #e07f64; 
+    text-align: center;
+}
+
+.number {
+    display: inline-block; 
+    background-color:#e07f64; 
+    color: white; 
+    padding: 10px 15px; 
+    border-radius: 10px; 
+    margin: -8px; 
+    font-size: 1.25em;
+}

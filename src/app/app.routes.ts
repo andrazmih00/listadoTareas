@@ -1,3 +1,6 @@
 import { Routes } from '@angular/router';
+import {Day2dayComponent} from  './day2day/day2day.component'
 
-export const routes: Routes = [];
+export const routes: Routes = [
+    {path: 'add.path.addday2day', component:Day2dayComponent}
+];

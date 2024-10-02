@@ -1,0 +1,8 @@
+<h2 class="title">DAY <span class="number">2</span> DAY</h2>
+<p *ngIf="listados.length === 0"> No hay nada programado para hoy. ¡No olvides añadir tus tareas!</p>
+<ul>
+    <li *ngFor="let day2day of listados; let i=index">
+        {{day2day.name}} - Type: {{day2day.type}} - Type2: {{day2day.type2}}
+        <button (click)="deleteListados(i)"> ELIMINAR</button>
+    </li>
+</ul>
