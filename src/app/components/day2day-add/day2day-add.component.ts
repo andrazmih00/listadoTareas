@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { Day2dayService } from '../day2day.service';
+import { Day2dayService } from '../../services/day2day.service';
 
 @Component({
   selector: 'app-day2day-add',

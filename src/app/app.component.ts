@@ -1,7 +1,7 @@
 import { Component } from '@angular/core';
 import { RouterOutlet } from '@angular/router';
-import { Day2dayComponent } from './day2day/day2day.component';
-import { Day2dayAddComponent } from './day2day-add/day2day-add.component';
+import { Day2dayComponent } from './components/day2day/day2day.component';
+import { Day2dayAddComponent } from './components/day2day-add/day2day-add.component';
 
 @Component({
   selector: 'app-root',
